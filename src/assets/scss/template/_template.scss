@@ -1,0 +1,97 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles 
+body,
+html, 
+.body {
+  background: #f3f3f3 !important;
+  font-style: normal;
+}
+
+p { font-family: 'Open Sans', sans-serif; font-weight: 300; font-style: normal; }
+
+.border-bottom { border-bottom: 1px solid #dfdfe0; }
+
+.container.header {
+  background: #f3f3f3;
+}
+
+.body-drip {
+  border-top: 8px solid #663399;
+}
+
+// Full Width Headers
+.header {
+  background: #fff;
+}
+
+.header__bar {
+  background: #8fad15;
+  th, small, a { color: #fff; }
+  &2 { background: #fff; border-bottom: 1px solid #dfdfe0 }
+}
+.header .columns {
+  padding-bottom: 0;
+}
+
+.header p {
+  color: #fff;
+  padding-top: 15px;
+}
+
+.header .wrapper-inner {
+  padding: 20px;
+}
+
+.header .container {
+  background: transparent;
+}
+
+// background
+.bg-offwhite { background: #f7f7f7; }
+.bg-palegreen { background: #f3f5e9; }
+.bg-gray { background: #e9e9e9; }
+
+// type
+.text-tiny { font-size: 12px; }
+.text-white { color: #fff; }
+.text-purple { color: #882462; }
+.text-green { color: #89ab00; }
+.text-bold { font-weight: 700; }
+.text-regular { font-weight: 400; }
+.text-italic { font-style: italic; }
+.text20 { font-size: 20px; }
+
+// links
+a.link-green {
+  color: #89ab00;
+  &:hover { color: #89ab00; }
+}
+
+// bars
+.purple-bar { background: #882462; padding: 10px 20px; font-size: 20px; }
+.green-bar { background: #8fad15; padding: 10px 20px; font-size: 20px; }
+
+// Social Media
+table.button.facebook table td {
+  background: #3B5998 !important;
+  border-color: #3B5998;
+}
+
+table.button.twitter table td {
+  background: #1daced !important;
+  border-color: #1daced;
+}
+
+table.button.google table td {
+  background: #DB4A39 !important;
+  border-color: #DB4A39;
+}
+
+.wrapper.secondary {
+  background: #dedede;
+}
+
+// Overrides
+td.columns, td.column, th.columns, th.column { padding: 0; }
